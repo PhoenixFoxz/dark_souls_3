@@ -1,0 +1,270 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+.darksouls3 {
+    background-image: url(../MIDIA/darksouls3.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    margin: auto;
+    height: 20rem;
+    position: relative;
+}
+
+.darksouls3 .centralizar {
+    position: absolute;
+    top: 26%;
+    width: 100%;
+}
+
+footer {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.banner_destaque {
+    background-image: url(../MIDIA/dark-souls-3-destaque_editado.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+}
+
+header {
+    position: sticky;
+    top: 0;
+}
+
+.nav_darksouls {
+    box-shadow: 0 100px 100px black;
+}
+
+.bacia_banner {
+    background-image: url(../MIDIA/bacia_editada.png);
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+}
+
+.eclipse_banner{
+    background-image: url(../MIDIA/eclipse.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+}
+
+.yhorm_banner {
+    background-image: url(../MIDIA/yhorm2_editado.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+}
+
+.aldrich_banner{
+    background-image: url(../MIDIA/Aldrich3_editado.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+}
+
+
+.artigos_introducao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.darksouls {
+    background-image: url(../MIDIA/artorias.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    margin: auto;
+    height: 20rem;
+    position: relative;
+}
+ 
+.img_darksouls{
+    width: 40%;
+    text-align: center;
+    display: inline-block;
+}
+
+.darksouls .centralizar {
+    position: absolute;
+    top: 26%;
+    width: 100%;
+}
+
+.introducao {
+    background-image: url(../MIDIA/abyss-watchers-dks3.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    margin: auto;
+    height: 20rem;
+    position: relative;
+}
+
+.introducao .centralizar {
+    position: absolute;
+    top: 26%;
+    width: 100%;
+}
+
+.falas {
+    padding: 30px;
+    margin: 30px;
+    font-style: italic; 
+    text-align: center;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../MIDIA/plano_de_fundo.jpg);
+    color: white;
+    background-attachment: fixed;
+    background-size: cover;
+    text-shadow: 2px 2px 10px black;
+    margin: auto;
+}
+
+.banner {
+    position: relative;
+}
+
+.banner figure {
+    position: absolute;
+    top: 26%;
+}
+
+.artigos_darksouls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: black 0 100px 100px;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 15px 40px black;
+}
+
+article {
+    font-size: larger; 
+    box-shadow: black 0 100px 100px;
+    padding-bottom: 0.2rem;
+}
+
+footer {
+    box-shadow: 0 100px 100px black;
+}
+
+.centralizar {
+    text-align: center;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.750);
+    width: 100%;
+    box-shadow: 0 0 100px black;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px 5px black;
+    display: inline-block;
+}
+
+header nav a:hover {
+    transition: all 0.3s linear;
+    box-shadow: 0 0 100px inset rgb(58, 58, 58);
+}
+
+.banner2_darksouls3 {
+    background-image: url(../MIDIA/darksouls3banner2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+}
+
+.catedral_das_profundezas {
+    background-image: url(../MIDIA/Catedral_das_Profundezas_editada.png);
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+}
+
+.banner_darksouls3 {
+    background-image: url(../MIDIA/darksouls3banner.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+}
+
+.banner_darksouls1 {
+    background-image: url(../MIDIA/darksouls1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+}
+
+.banner_darksouls2 {
+    background-image: url(../MIDIA/darksouls2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+}
+
+header nav a {
+    padding: 20px;
+    font-size: 20px;
+    background-color: rgb(0, 0, 0);
+    width: 25%;
+}
+
+main .centralizar {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,0) 0%, rgb(0, 0, 0) 52%, rgba(0,212,255,0) 100%);
+}
+
+li {
+    font-size: small;
+}
+
+.listas {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+li a:hover {
+    color: hotpink;
+}
+
+article p {
+    padding: 0 1.5vw;   
+}
+
+article .conteudo_img {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-flow: row;
+}
+
+
